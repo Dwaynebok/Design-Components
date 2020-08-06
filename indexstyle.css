@@ -9,14 +9,16 @@
     width: 300px;
     word-break: keep-all;
     text-align: center;
-    margin-left: 18%;
+    margin-left: 10%;
 }
 
 img{
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
-    margin-left: 20px;
+    margin-left: 80px;
     float: right;
+
+
 
 }
 
@@ -34,6 +36,15 @@ img{
 
 body{
     text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -600px;
+
+
+
+
 }
 
 .last:hover{
