@@ -6,12 +6,18 @@
 
 .content{
     color: royalblue;
+    width: 300px;
+    word-break: keep-all;
+    text-align: center;
+    margin-left: 18%;
 }
 
 img{
     max-width: 40%;
     height: auto;
-    margin-right: 20px;
+    margin-left: 20px;
+    float: right;
+
 }
 
 .last{
@@ -19,9 +25,18 @@ img{
     color: white;
     background-color: royalblue;
     display: inline-block;
-    border-radius: 25px;
-    padding: 20px
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    height: 50px;
 
+}
 
+body{
+    text-align: center;
+}
 
+.last:hover{
+    border-bottom: 1px;
+    background-color: coral;
 }
