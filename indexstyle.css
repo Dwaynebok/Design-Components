@@ -2,6 +2,7 @@
     font-family: 'Rowdies', cursive;
     color: crimson;
     font-size: large;
+    margin-top: 10%;
 }
 
 .content{
@@ -28,9 +29,9 @@ img{
     background-color: royalblue;
     display: inline-block;
     border-radius: 15px;
-    padding: 20px;
     width: 350px;
-    height: 50px;
+
+
 
 }
 
@@ -50,4 +51,8 @@ body{
 .last:hover{
     border-bottom: 1px;
     background-color: coral;
+}
+
+.last .content .header{
+    text-align: center;
 }
